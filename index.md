@@ -4,6 +4,11 @@ You can use the [editor on GitHub](https://github.com/nilsness/basketball-score/
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+# Current projects:
+
+- Basketball score-counter: [Link](https://nilsness.github.io/basketball-score/index.html)
+
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
