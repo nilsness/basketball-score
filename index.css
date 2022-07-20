@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    src: url('./fonts/CursedTimerULiL.woff2') format('woff2'),
+        url('./fonts/CursedTimerULiL.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+button {
+    background: none;
+    color: #9AABD8;
+    font-size: 20px;
+    font-weight: 400;
+    border-width: 2px;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    padding: 10px;
+    margin: 2px;
+    
+
+    
+    font-family: 'Cursed Timer ULiL';
+    src: url('./fonts/CursedTimerULiL.woff2') format('woff2'),
+        url('./fonts/CursedTimerULiL.woff') format('woff');
+}
+
+.points {
+    /* home-score */
+    background: #0a0001;
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Cursed Timer ULiL';
+    color: #F94F6D;
+    border-radius: 5px;
+    width: 120px;
+    margin: 20px;
+}
+#clock{
+        background: #0a0001;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Cursed Timer ULiL';
+    color: #F94F6D;
+    border-radius: 5px;
+    width: 60px;
+    margin: 5px;    
+}
+
+#period-text{
+    font-family: 'Verdana';
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 90px;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+#period{
+    background: #0a0001;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Cursed Timer ULiL';
+    color: #F94F6D;
+    border-radius: 5px;
+    width: 60px;
+    margin: 5px;    
+}
+
+.team {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    
+    /* identical to box height, or 90% */
+    text-align: center;
+    color: #EEEEEE;
+}
