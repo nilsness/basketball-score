@@ -1,0 +1,42 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class = "column">
+                <h3 class = "team">HOME</h3>
+                <h2 id="homeEl" class = "points">0</h2>
+                <div>
+                    <button onclick="addPoints('homeEl', 1)">+1</button>
+                    <button onclick="addPoints('homeEl', 2)">+2</button>
+                    <button onclick="addPoints('homeEl', 3)">+3</button>
+                </div>
+            </div>
+            <div id="info" class = "column">
+                <div id="periode">
+                <h3 id="period-text">PERIOD</h3>
+                <h3 id="period">1</h3>
+                <button onclick="addPoints('period', 1)">+1</button>
+                </div>
+                <div id="clock">
+                    <h3 id="countdown">20</h3>
+                </div>
+            </div>
+            
+            <div class = "column">
+                <h3 class = "team">AWAY</h3>
+                <h2 id="awayEl" class = "points">0</h2>
+                <div>  
+                <button onclick="addPoints('awayEl', 1)">+1</button>
+                <button onclick="addPoints('awayEl', 2)">+2</button>
+                <button onclick="addPoints('awayEl', 3)">+3</button>
+            </div>              
+        </div>
+    </div>
+    
+    <button id="reset" onclick="reset()">New Game</button>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
