@@ -6,7 +6,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 # Current projects:
 
-- Basketball score-counter: [Link](https://nilsness.github.io/basketball-score/index.html)
+- Basketball score-counter: [Link](https://nilsness.github.io/basketball-score/basket.html)
 
 
 ### Markdown
